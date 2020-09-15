@@ -1,0 +1,26 @@
+I"<h3 class="top-buffer" id="matlab-batch-jobs">Matlab batch jobs</h3>
+
+<p>Η υποβολή εργασιών επίλυσης που χρησιμοποιούν το λογισμικό Matlab προϋποθέτει ότι έχετε ήδη στον τοπικό σας υπολογιστή ένα πρόγραμμα <code class="highlighter-rouge">job.m</code> σε Matlab και θέλετε να το εκτελέσετε στην υποδομή του υπολογιστικού πλέγματος. Πρέπει να διαμορφώσετε ένα αρχείο μέ κάποιο όνομα, π.χ. job.sh και να το προσαρμόσετε στα δεδομένα που αφορούν στο πρόβλημά σας.</p>
+
+<ul>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">#$ -M chfrag ΑΤ central.ntua.gr</code> βάζοντας το δικό σας email για να λαμβάνετε ειδοποιήσεις σχετικά με την πορεία της επίλυσης.</li>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">SCRIPT=job</code> βάζοντας το όνομα του αρχείου που περιέχει το πρόγραμμα του Matlab που θέλετε να εκτελέσετε.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="c">#</span>
+<span class="c">#$ -cwd</span>
+<span class="c">#$ -M chfrag AT central.ntua.gr</span>
+<span class="c">#$ -m baes</span>
+<span class="c">#$ -S /bin/bash</span>
+<span class="c">#$ -e ./errors.txt</span>
+<span class="c">#$ -o ./output.txt</span>
+<span class="c">#$ -N matlab_test_job</span>
+<span class="c">#</span>
+
+<span class="nv">MATLAB</span><span class="o">=</span>/usr/local/MATLAB/R2016a/bin/matlab
+<span class="nv">SCRIPT</span><span class="o">=</span>job
+
+<span class="nv">$MATLAB</span> nodesktop <span class="nt">-nosplash</span> <span class="nt">-r</span> <span class="nv">$SCRIPT</span>
+</code></pre></div></div>
+:ET

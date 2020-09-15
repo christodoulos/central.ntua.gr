@@ -1,0 +1,340 @@
+I"7<h3 class="top-buffer" id="matlab">Matlab</h3>
+
+<p>Το Matlab είναι ένα διαδραστικό περιβάλλον για αριθμητικούς υπολογισμούς, απεικόνιση και προγραμματισμό σε υψηλού επιπέδου γλώσσα. Χρησιμοποιώντας το Matlab μπορείτε να αναλύσετε δεδομένα, να αναπτύξετε αλγόριθμους καθώς και να δημιουργήσετε μοντέλα και εφαρμογές. Η γλώσσα, τα εργαλεία και οι ενσωματωμένες μαθηματικές λειτουργίες σας δίνουν τη δυνατότητα πολλαπλές προσεγγίσεις και να φτάσετε στη λύση των προβλημάτων σας ταχύτερα.</p>
+
+<p>Μπορείτε να χρησιμοποιήσετε το Matlab για ένα ευρύ φάσμα εφαρμογών, συμπεριλαμβανομένης της επεξεργασίας σήματος και επικοινωνιών, της επεξεργασίας εικόνας και βίντεο, των συστημάτων ελέγχου, δοκιμών και μετρήσεων των υπολογιστικών οικονομικών και της υπολογιστικής βιολογίας.</p>
+
+<h4 id="διαθέσιμα-toolboxes">Διαθέσιμα toolboxes</h4>
+
+<p>Στον παρακάτω πίνακα φαίνονται τα διαθέσιμα προϊόντα και toolboxes του Matlab. Για λόγους καλύτερης εξυπηρέτησης των αναγκών του ΕΜΠ ένας αριθμός από toolboxes σταμάτησε να συντηρείται στίς 31 Μαρτίου του 2015. Αυτό σημαίνει ότι ο αριθμός των αδειών των toolboxes με αυτή την ημερομηνία είναι διαθέσιμος για χρήση μόνο έως την έκδοση <code class="highlighter-rouge">2015a</code> του λογισμικού. Οι αριθμός των αδειών με ημερομηνία λήξης συντήρησης 31 Μαρτίου 2019 είναι διαθέσιμος για χρήση με την τρέχουσα έκδοση που είναι η <code class="highlighter-rouge">2018a</code></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Service End Date</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MATLAB</td>
+      <td>31 Mar 2019</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>Simulink</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Simulink</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>Communications Blockset (Transitioned)</td>
+      <td>31 Dec 2011</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Communications System Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Communications System Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>Computer Vision System Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Control System Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Control System Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Curve Fitting Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Curve Fitting Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>DSP System Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>DSP System Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>Fuzzy Logic Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Fuzzy Logic Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Global Optimization Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Image Processing Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Image Processing Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>Instrument Control Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MATLAB Compiler</td>
+      <td>31 Mar 2019</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>MATLAB Compiler SDK</td>
+      <td>31 Mar 2019</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Mapping Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Neural Network Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Neural Network Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Optimization Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Optimization Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>Parallel Computing Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>RF Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Signal Processing Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Signal Processing Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>SimRF</td>
+      <td>31 Mar 2019</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Simscape</td>
+      <td>31 Mar 2019</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Simscape Electronics</td>
+      <td>31 Mar 2019</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Simscape Fluids</td>
+      <td>31 Mar 2019</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Simscape Power Systems</td>
+      <td>31 Mar 2019</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Simulink Control Design</td>
+      <td>31 Mar 2019</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Simulink Control Design</td>
+      <td>31 Mar 2015</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Simulink Design Optimization</td>
+      <td>31 Mar 2019</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Spline Toolbox (Transitioned)</td>
+      <td>31 Dec 2010</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Stateflow</td>
+      <td>31 Mar 2019</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Statistics and Machine Learning Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Statistics and Machine Learning Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>Symbolic Math Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Symbolic Math Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>System Identification Toolbox</td>
+      <td>31 Mar 2019</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>System Identification Toolbox</td>
+      <td>31 Mar 2015</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="προϋπόθεση-για-την-εγκατάσταση">Προϋπόθεση για την εγκατάσταση</h4>
+
+<p>Για την προσωπική χρήση του Matlab για εκπαιδευτικούς και ερευνητικούς σκοπούς είναι απαραίτητο να δημιουργηθεί προσωποποιημένη πρόσβαση στις σχετικές σελίδες της εταιρείας Mathworks που παράγει το λογισμικό. Οι ενδιαφερόμενοι χρήστες πρέπει να είναι κάτοχοι ιδρυματικού λογαριασμού email του τύπου <code class="highlighter-rouge">&lt;username&gt;@central.ntua.gr</code> ή <code class="highlighter-rouge">&lt;username&gt;@mail.ntua.gr</code>.</p>
+
+<h4 id="license-file">License File</h4>
+
+<p>Σε οποιαδήποτε τοπική εγκατάσταση είναι απαραίτητο να δημιουργήσετε κάπου στον υπολογιστή σας ένα αρχείο με όνομα <code class="highlighter-rouge">matlab.lic</code> και περιεχόμενα:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SERVER licenses.central.ntua.gr 00163EE122D8 27001
+USE_SERVER
+</code></pre></div></div>
+<p><a href="/assets/matlab.lic" download="">κατέβασμα αρχείου matlab.lic</a></p>
+
+<p>Το συγκεκριμένο αρχείο θα το χρησιμοποιήσετε κατά τη διάρκεια της εγκατάστασης</p>
+
+<h4 id="δημιουργία-λογαριασμού-στο-site-της-mathworks">Δημιουργία λογαριασμού στο site της Mathworks</h4>
+
+<p>Αν δεν έχετε ήδη λογαριασμό στο site της Mathworks θα πρέπει να δημιουργήσετε έναν χρησιμοποιώντας τον ιδρυματικό σας λογαριασμό email του τύπου <code class="highlighter-rouge">&lt;username&gt;@central.ntua.gr</code>. Για να το κάνετε αυτό επιλέξτε το σύνδεσμο <code class="highlighter-rouge">Log In</code> και στη συνέχεια <code class="highlighter-rouge">Create Account</code>. Θα πρέπει να συμπληρώσετε διάφορα στοιχεία και στο τέλος η Mathworks θα αποστείλει ένα μήνυμα επιβεβαίωσης για να ολοκληρωθεί η δημιουργία του λογαριασμού σας.</p>
+
+<h4 id="σύνδεση-του-λογαριασμού-σας-με-το-license-number-του-εμπ">Σύνδεση του λογαριασμού σας με το License Number του ΕΜΠ</h4>
+
+<p>Με δεδομένο λοιπόν το λογαριασμό σας στη σελίδα της Mathworks επιλέξτε <code class="highlighter-rouge">Log In</code> και στη συνέχεια από το μενού που εμφανίζεται κάτω από το όνομά σας επιλέξτε <code class="highlighter-rouge">Associate License</code>.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/associate.png" alt="Associate License" /></p>
+
+<p>Πληκτρολογήστε τον αριθμό του License (54126) και πατήστε <code class="highlighter-rouge">Associate License</code>.  Αν η σύνδεση πετύχει θα εμφανιστεί σχετικό μήνυμα.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/associate-ntua.png" alt="Associate License with license number" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/associate-success.png" alt="Associate success" /></p>
+
+<h4 id="download-του-προγράμματος-εγκατάστασης">Download του προγράμματος εγκατάστασης</h4>
+
+<p>Επιλέξτε <code class="highlighter-rouge">Download Your Products Now</code> στη συνέχεια την έκδοση του Matlab στο λειτουργικό σύστημα που σας ενδιαφέρει.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/download.png" alt="Download" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/download-os.png" alt="Downnload OS" /></p>
+
+<h4 id="εγκατάσταση-του-matlab">Εγκατάσταση του Matlab</h4>
+
+<p>Αφού αποσυμπιέσετε και ξεκινήσετε το πρόγραμμα εγκατάστασης ακολουθήστε τα παρακάτω βήματα:</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-00.png" alt="Install 00" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-01.png" alt="Install 01" /></p>
+
+<p>Χρησιμοποιήστε τα στοιχεία της πρόσβασής σας στη σελίδα της Mathworks</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-02.png" alt="Install 02" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-03.png" alt="Install 03" /></p>
+
+<p>Επιλέξτε την τοποθεσία της εγκατάστασης και <strong>μην επιλέξετε τον License
+Manager</strong>. Έχετε επίσης την δυνατότητα να απο-επιλέξετε toolboxes που
+ενδεχομένως δεν χρειάζεστε.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-04.png" alt="Install 04" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-05.png" alt="Install 05" /></p>
+
+<p>Εισάγετε την τοποθεσία του αρχείου <code class="highlighter-rouge">matlab.lic</code> που ήδη έχετε φτιάξει και
+αποθηκεύσει σε κάποια τοποθεσία του υπολογιστή σας.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-06.png" alt="Install 06" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-07.png" alt="Install 07" /></p>
+
+<p>Η εγκατάσταση θα ξεκινήσει.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-08.png" alt="Install 08" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-09.png" alt="Install 09" /></p>
+
+<p>Η εγκατάσταση θα διαρκέσει μερικά λεπτά καθώς θα κατεβαίνουν από τη Mathworks
+τα κατάλληλα λογισμικά.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-10.png" alt="Install 10" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-11.png" alt="Install 11" /></p>
+
+<p>Όταν η εγκατάσταση ολοκληρωθεί θα μπορείτε να εκτελέσετε το Matlab στον
+υπολογιστή σας.</p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/install-12.png" alt="Install 12" /></p>
+
+<p><img src="/assets/img/wiki/licenses/matlab/matlab-running.png" alt="Matlab Running" /></p>
+:ET

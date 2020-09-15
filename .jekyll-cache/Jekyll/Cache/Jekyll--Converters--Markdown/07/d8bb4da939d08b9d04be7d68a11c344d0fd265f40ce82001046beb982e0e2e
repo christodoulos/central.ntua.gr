@@ -1,0 +1,55 @@
+I"�<h3 class="top-buffer" id="abaqus-batch-jobs">Abaqus batch jobs</h3>
+
+<p>Η υποβολή εργασιών επίλυσης που χρησιμοποιούν το λογισμικό Abaqus προϋποθέτει ότι υπάρχει ήδη ένα διαμορφωμένο μοντέλο στον τοπικό σας υπολογιστή και ενδεχομένως μια υπορουτίνα σε Fortran. Στο παράδειγμα παρακάτω το μοντέλο είναι το αρχείο <code class="highlighter-rouge">plate_impact.inp</code> και η υπορουτίνα της Fortran είναι το αρχείο <code class="highlighter-rouge">uniFiber.for</code>. Πρέπει λοιπόν να διαμορφώσετε ένα αρχείο με κάποιο όνομα, π.χ. <code class="highlighter-rouge">abaqus-multi.sh</code> και να το προσαρμόσετε στα δεδομένα που αφορούν στο πρόβλημά σας.</p>
+
+<ul>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">#$ -M chfrag ΑΤ central.ntua.gr</code> βάζοντας το δικό σας email για να λαμβάνετε ειδοποιήσεις σχετικά με την πορεία της επίλυσης.</li>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">WDIR=/mnt/home/chfrag/sge-tests/abaqus-multiprocessor</code> με τον κατάλογο εργασίας όπου θα βρίσκονται το μοντέλο, η υπορουτίνα και το αρχείο <code class="highlighter-rouge">abaqus-multi.sh</code>.</li>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">INPUT_FILENAME=$WDIR/plate_impact.inp</code> αντικαθιστώντας το <code class="highlighter-rouge">plate_impact.inp</code> με το δικό σας μοντέλο.</li>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">SUBROUTINE=uniFiber.for</code> με τη δική σας υπορουτίνα Fortran.</li>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">JOBNAME=abaqus-test_${JOB_ID}</code> αντικαθιστώντας το <code class="highlighter-rouge">abaqus-test_</code> με ένα άλλο όνομα που έχει νόημα για την επεξεργασία σας.</li>
+  <li>Αλλάξτε τη γραμμή <code class="highlighter-rouge">CPUS=24</code> με τον αριθμό των επεξεργαστών που θα θέλατε να απασχοληθούν με την επίλυση. Προς το παρόν ο μέγιστος αριθμός είναι το 24, όμως για να μπορέσει αυτό να ισχύσει πρέπει υπάρχουν διαθέσιμες οι απαραίτητες άδειες (19 analysis tokens). Λιγότεροι επεξεργαστές χρειάζονται λιγότερα tokens αδειοδότησης (1 επεξεργαστής χρειάζεται 5 tokens). Ένημέρωση για τον τρέχοντα αριθμό των διαθέσιμων tokens υπάρχει <a href="http://www.central.ntua.gr/stats/licenses/curruse">εδώ</a>. Ο τύπος που υπολογίζει τα απαραίτητα tokens \(t\) για \(n\) επεξεργαστές είναι \(t = \lfloor 5 \cdot n^{0.422} \rfloor \).</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="c">#</span>
+<span class="c">#$ -cwd</span>
+<span class="c">#$ -M chfrag ΑΤ central.ntua.gr</span>
+<span class="c">#$ -m bae</span>
+<span class="c">#$ -S /bin/bash</span>
+<span class="c">#$ -o out.txt</span>
+<span class="c">#$ -e err.txt</span>
+<span class="c">#$ -notify</span>
+
+<span class="nb">source</span> /usr/local/INTEL/composer_xe_2011_sp1.6.233/bin/compilervars.sh intel64
+<span class="nb">export </span><span class="nv">LD_LIBRARY_PATH</span><span class="o">=</span>/usr/local/INTEL/composer_xe_2011_sp1.6.233/composer_xe_2011_sp1.6.233/compiler/lib/intel64
+
+<span class="nv">PATH</span><span class="o">=</span>/usr/local/ABAQUS/Commands/:<span class="nv">$PATH</span>
+<span class="nv">WDIR</span><span class="o">=</span>/mnt/home/chfrag/sge-tests/abaqus-multiprocessor
+<span class="nv">INPUT_FILENAME</span><span class="o">=</span><span class="nv">$WDIR</span>/plate_impact.inp
+<span class="nv">JOBNAME</span><span class="o">=</span>abaqus-test_<span class="k">${</span><span class="nv">JOB_ID</span><span class="k">}</span>
+<span class="nv">SUBROUTINE</span><span class="o">=</span>uniFiber.for
+<span class="nv">CPUS</span><span class="o">=</span>24
+<span class="nv">ABAQUS_ARGS</span><span class="o">=</span><span class="s2">""</span>
+<span class="nv">SCRATCH_DIR</span><span class="o">=</span>/tmp
+
+exit_gracefully<span class="o">()</span> <span class="o">{</span>
+abaqus terminate <span class="nv">job</span><span class="o">=</span><span class="nv">$JOBNAME</span>
+<span class="nb">echo </span>Abaqus job <span class="nv">$JOBNAME</span> terminated
+<span class="nb">exit</span>
+<span class="o">}</span>
+
+<span class="nb">trap </span>exit_gracefully SIGUSR2
+
+<span class="nb">cd</span> <span class="nv">$WDIR</span>
+
+abaqus <span class="nv">job</span><span class="o">=</span><span class="nv">$JOBNAME</span> <span class="nv">input</span><span class="o">=</span><span class="nv">$INPUT_FILENAME</span> <span class="nv">user</span><span class="o">=</span><span class="nv">$SUBROUTINE</span> <span class="nv">cpus</span><span class="o">=</span><span class="nv">$CPUS</span> <span class="nv">scratch</span><span class="o">=</span><span class="nv">$SCRATCH_DIR</span> <span class="nv">$ABAQUS_ARGS</span>
+
+/bin/uname <span class="se">\-</span>a
+
+<span class="nb">sleep </span>60
+<span class="k">while</span> <span class="o">[</span> <span class="nt">-f</span> <span class="k">${</span><span class="nv">JOBNAME</span><span class="k">}</span>.lck <span class="o">]</span><span class="p">;</span> <span class="k">do
+</span><span class="nb">sleep </span>5
+<span class="k">done</span>
+</code></pre></div></div>
+:ET
