@@ -1,4 +1,4 @@
-I"~<h3 class="top-buffer" id="εξειδικευμένα-λογισμικά-για-μηχανικούς">Εξειδικευμένα λογισμικά για μηχανικούς</h3>
+I"<h3 class="top-buffer" id="εξειδικευμένα-λογισμικά-για-μηχανικούς">Εξειδικευμένα λογισμικά για μηχανικούς</h3>
 
 <p>Το ΚΗΥ διαχειρίζεται κεντρικά την προμήθεια και τη διασπορά εξειδικευμένων εμπορικών λογισμικών για μηχανικούς. Διαχειρίζεται και συντηρεί τους κεντρικούς εξυπηρετητές παροχής δικτυακών αδειών χρήσης <em>(network license servers)</em> για κάθε εγκατάσταση Η/Υ εντός του δικτύου του ΕΜΠ. Επιτυγχάνει <strong>οικονομία κλίμακας</strong> στις προμήθειες του ΕΜΠ, παρέχοντας τη δυνατότητα σύγχρονης εκτέλεσης των λογισμικών, κατά τη χρονική διάρκεια της ανάγκης χρήσης τους, χωρίς να χρειάζεται η μεμονωμένη προμήθειά τους από τους αποκεντρωμένους χρήστες.</p>
 
@@ -32,13 +32,13 @@
   <tbody>
     <tr>
       <td><a href="/matlab">Matlab</a></td>
-      <td><code class="highlighter-rouge">licenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">licenses.central.ntua.gr</code></td>
       <td>27001</td>
       <td>120</td>
     </tr>
     <tr>
       <td><a href="/ansys">Ansys</a></td>
-      <td><code class="highlighter-rouge">licenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">licenses.central.ntua.gr</code></td>
       <td>1055, 2325</td>
       <td>51 Research</td>
     </tr>
@@ -56,7 +56,7 @@
     </tr>
     <tr>
       <td><a href="/abaqus">Abaqus</a></td>
-      <td><code class="highlighter-rouge">licenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">licenses.central.ntua.gr</code></td>
       <td>27000</td>
       <td>Base License</td>
     </tr>
@@ -74,7 +74,7 @@
     </tr>
     <tr>
       <td>MSC</td>
-      <td><code class="highlighter-rouge">licenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">licenses.central.ntua.gr</code></td>
       <td>1700</td>
       <td>49 FEA &amp; Motion Bundle</td>
     </tr>
@@ -86,25 +86,25 @@
     </tr>
     <tr>
       <td>Solidworks</td>
-      <td><code class="highlighter-rouge">solidworkslicenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">solidworkslicenses.central.ntua.gr</code></td>
       <td> </td>
       <td>500</td>
     </tr>
     <tr>
       <td>ArcGIS</td>
-      <td><code class="highlighter-rouge">arcgislicenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">arcgislicenses.central.ntua.gr</code></td>
       <td> </td>
       <td>500</td>
     </tr>
     <tr>
       <td>Comsol</td>
-      <td><code class="highlighter-rouge">licenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">licenses.central.ntua.gr</code></td>
       <td> </td>
       <td>40</td>
     </tr>
     <tr>
       <td>Aspen</td>
-      <td><code class="highlighter-rouge">aspenlicenses.central.ntua.gr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">aspenlicenses.central.ntua.gr</code></td>
       <td> </td>
       <td>50</td>
     </tr>

@@ -1,4 +1,4 @@
-I"Z<h3 class="top-buffer" id="ansys">ANSYS</h3>
+I"�<h3 class="top-buffer" id="ansys">ANSYS</h3>
 
 <p>Το πακέτο εφαρμογών της ANSYS προσφέρει ένα ολοκληρωμένο σύνολο λογισμικών λύσεων προσομοίωσης για την πρόβλεψη της συμπεριφοράς των εργαστηριακά σχεδιαμένων προϊόντων στο περιβάλλον του πραγματικού κόσμου.</p>
 
@@ -37,7 +37,7 @@
 
 <h4 id="download-των-λογισμικών">Download των λογισμικών</h4>
 
-<p>Τα λογισμικά της ANSYS είναι διαθέσιμα μετά από έλεγχο πρόσβασης στον ftp server του Κέντρου Ηλεκτρονικών Υπολογιστών <a href="ftp://ftp.central.ntua.gr">ftp.central.ntua.gr</a>. Μετά τον επιτυχή έλεγχο πρόσβασης θα πρέπει να επιλέξετε την πλατφόρμα που σας ενδιαφέρει και να κατεβάσετε τα αρχεία <code class="highlighter-rouge">.iso</code>. Για τον έλεγχο της ορθότητας των αρχείων που κατεβάσατε χρησιμοποιείστε το αρχείο με τα “md5 sums”, όπως π.χ. το αρχείο <code class="highlighter-rouge">ANSYS171_LINX64.md5</code> στον κατάλογο για την πλατφόρμα του linux.</p>
+<p>Τα λογισμικά της ANSYS είναι διαθέσιμα μετά από έλεγχο πρόσβασης στον ftp server του Κέντρου Ηλεκτρονικών Υπολογιστών <a href="ftp://ftp.central.ntua.gr">ftp.central.ntua.gr</a>. Μετά τον επιτυχή έλεγχο πρόσβασης θα πρέπει να επιλέξετε την πλατφόρμα που σας ενδιαφέρει και να κατεβάσετε τα αρχεία <code class="language-plaintext highlighter-rouge">.iso</code>. Για τον έλεγχο της ορθότητας των αρχείων που κατεβάσατε χρησιμοποιείστε το αρχείο με τα “md5 sums”, όπως π.χ. το αρχείο <code class="language-plaintext highlighter-rouge">ANSYS171_LINX64.md5</code> στον κατάλογο για την πλατφόρμα του linux.</p>
 
 <p><img src="/assets/img/wiki/licenses/ansys/download/ansys0.png" alt="Ansys FTPdir" /></p>
 

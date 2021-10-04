@@ -1,13 +1,13 @@
-I"�R<h3 class="top-buffer" id="γενικά">Γενικά</h3>
+I"�U<h3 class="top-buffer" id="γενικά">Γενικά</h3>
 
 <p>Το ΚΗΥ παρέχει πρόσβαση σε κεντρικά εγκατεστημένη υποδομή υπολογιστικού πλέγματος (Grid) και δίνει τη δυνατότητα εκτέλεσης εφαρμογών (engineering simulations) με υψηλές υπολογιστικές απαιτήσεις (High Performance Computing, HPC) σε όλους τους ερευνητές της Πολυτεχνειακής κοινότητας. Η χρήση της υποδομής του υπολογιστικού πλέγματος συμβάλει στη μέγιστη δυνατή αξιοποίηση των κεντρικά εγκατεστημένων υπολογιστικών συστημάτων υψηλής απόδοσης.</p>
 
 <h4 id="τρόπος-πρόσβασης">Τρόπος πρόσβασης</h4>
 
-<p>Οι ερευνητές που επιθυμούν να έχουν πρόσβαση στην υποδομή του υπολογιστικού πλέγματος θα πρέπει να αιτηθούν τη χρήση του στέλνοντας email προς <code class="highlighter-rouge">adm AT central.ntua.gr</code> όπου απαραίτητα θα συμπεριλαμβάνονται (<a href="#Παράδειγμα_αίτησης_χρήσης">δείτε</a> παράδειγμα):</p>
+<p>Οι ερευνητές που επιθυμούν να έχουν πρόσβαση στην υποδομή του υπολογιστικού πλέγματος θα πρέπει να αιτηθούν τη χρήση του στέλνοντας email προς <code class="language-plaintext highlighter-rouge">adm AT central.ntua.gr</code> όπου απαραίτητα θα συμπεριλαμβάνονται (<a href="#Παράδειγμα_αίτησης_χρήσης">δείτε</a> παράδειγμα):</p>
 
 <ul>
-  <li>Τα προσωπικά τους στοιχεία: το όνομα, το επώνυμο, τη σχολή, <strong>το όνομα χρήστη στο KHY</strong> (το <code class="highlighter-rouge">username</code> από το <code class="highlighter-rouge">username@central.ntua.gr</code> ή <code class="highlighter-rouge">username@mail.ntua.gr</code>), ένα τηλέφωνο επικοινωνίας, τον επιβλέποντα καθηγητή (στην περίπτωση των διδακτορικών) και την ιδιότητά τους στο ΕΜΠ (μεταπτυχιακός φοιτητής, καθηγητής, εξωτερικός συνεργάτης, κτλ).</li>
+  <li>Τα προσωπικά τους στοιχεία: το όνομα, το επώνυμο, τη σχολή, <strong>το όνομα χρήστη στο KHY</strong> (το <code class="language-plaintext highlighter-rouge">username</code> από το <code class="language-plaintext highlighter-rouge">username@central.ntua.gr</code> ή <code class="language-plaintext highlighter-rouge">username@mail.ntua.gr</code>), ένα τηλέφωνο επικοινωνίας, τον επιβλέποντα καθηγητή (στην περίπτωση των διδακτορικών) και την ιδιότητά τους στο ΕΜΠ (μεταπτυχιακός φοιτητής, καθηγητής, εξωτερικός συνεργάτης, κτλ).</li>
   <li>Μια σύντομη περιγραφή της χρήσης που πρόκειται να κάνουν: π.χ. <em>“Χρήση του Abaqus στα πλαίσια της διδακτορικής μου διατριβής με τίτλο: “ΠΡΟΣΔΙΟΡΙΣΜΟΣ  ΚΡΙΤΗΡΙΩΝ  ΑΣΤΟΧΙΑΣ  ΥΛΙΚΩΝ  ΚΑΙ  ΕΦΑΡΜΟΓΗ  ΤΟΥΣ  ΣΕ  ΚΩΔΙΚΑ  ΠΕΠΕΡΑΣΜΕΝΩΝ  ΣΤΟΙΧΕΙΩΝ  ΓΙΑ  ΤΗΝ  ΠΡΟΣΟΜΟΙΩΣΗ  ΑΠΟΚΡΙΣΗΣ  ΤΗΣ  ΓΑΣΤΡΑΣ ΠΛΟΙΩΝ ΣΕ ΑΚΡΑΙΑ ΦΟΡΤΙΑ”</em>.</li>
   <li>Το δημόσιο κλειδί τους (<a href="#Αντιγραφή_του_δημόσιου_κλειδιού">δείτε</a> παρακάτω).</li>
 </ul>
@@ -20,7 +20,7 @@
 
 <h4 id="δημιουργία-κλειδιών-κρυπτογράφησης">Δημιουργία κλειδιών κρυπτογράφησης</h4>
 
-<p>Αν χρησιμοποιείτε <em>Windows</em> μια λύση είναι να χρησιμοποιήσετε το πρόγραμμα <a href="https://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe">PuTTY Key Generator</a>. Αφού το ξεκινήσετε και πατήσετε το κουμπί <code class="highlighter-rouge">Generate</code> θα πρέπει να κινήσετε το ποντίκι σας πάνω στη λευκή περιοχή έως ότου παραχθεί αρκετή τυχαιότητα για τη δημιουργία των κλειδιών σας. Μόλις δημιουργηθούν τα κλειδιά θα πρέπει να τα σώσετε στον υπολογιστή σας για την μελλοντική τους χρήση σαν κλειδιά πρόσβασης στην υποδομή του grid του ΚΗΥ.</p>
+<p>Αν χρησιμοποιείτε <em>Windows</em> μια λύση είναι να χρησιμοποιήσετε το πρόγραμμα <a href="https://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe">PuTTY Key Generator</a>. Αφού το ξεκινήσετε και πατήσετε το κουμπί <code class="language-plaintext highlighter-rouge">Generate</code> θα πρέπει να κινήσετε το ποντίκι σας πάνω στη λευκή περιοχή έως ότου παραχθεί αρκετή τυχαιότητα για τη δημιουργία των κλειδιών σας. Μόλις δημιουργηθούν τα κλειδιά θα πρέπει να τα σώσετε στον υπολογιστή σας για την μελλοντική τους χρήση σαν κλειδιά πρόσβασης στην υποδομή του grid του ΚΗΥ.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/puttygen-launch.png" alt="puttygen launch" /></p>
 
@@ -28,7 +28,7 @@
 
 <p><img src="/assets/img/wiki/hpc/ssh/puttygen-keysready.png" alt="puttygen keys ready" /></p>
 
-<p>Μπορείτε για παράδειγμα να δημιουργήσετε ένα κατάλογο <code class="highlighter-rouge">PuTTY Keys</code> για να αποθηκεύσετε τα κλειδιά σας. Σώστε το <em>δημόσιο</em> κλειδί (κουμπί <code class="highlighter-rouge">Save public key</code>) με κάποιο όνομα, π.χ. <code class="highlighter-rouge">public</code>. Κατά τη διάρκεια της αποθήκευσης του ιδιωτικού σας κλειδιού (κουμπί <code class="highlighter-rouge">Save private key</code>) σας συμβουλεύουμε να εφοδιάσετε το κλειδί σας με ένα συνθηματικό <em>passphrase</em> έτσι ώστε να είναι ασφαλέστερη η χρήση του. Αυτό σημαίνει ότι κάθε φορά πριν τη χρήση του κλειδιού σας θα σας γίνεται ερώτηση για το μυστικό <em>passphrase</em> που θα πρέπει να απαντηθεί ορθά για να συνεχίστε.</p>
+<p>Μπορείτε για παράδειγμα να δημιουργήσετε ένα κατάλογο <code class="language-plaintext highlighter-rouge">PuTTY Keys</code> για να αποθηκεύσετε τα κλειδιά σας. Σώστε το <em>δημόσιο</em> κλειδί (κουμπί <code class="language-plaintext highlighter-rouge">Save public key</code>) με κάποιο όνομα, π.χ. <code class="language-plaintext highlighter-rouge">public</code>. Κατά τη διάρκεια της αποθήκευσης του ιδιωτικού σας κλειδιού (κουμπί <code class="language-plaintext highlighter-rouge">Save private key</code>) σας συμβουλεύουμε να εφοδιάσετε το κλειδί σας με ένα συνθηματικό <em>passphrase</em> έτσι ώστε να είναι ασφαλέστερη η χρήση του. Αυτό σημαίνει ότι κάθε φορά πριν τη χρήση του κλειδιού σας θα σας γίνεται ερώτηση για το μυστικό <em>passphrase</em> που θα πρέπει να απαντηθεί ορθά για να συνεχίστε.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/puttygen-savepublic.png" alt="puttygen save public" /></p>
 
@@ -38,13 +38,13 @@
 
 <h4 id="αντιγραφή-του-δημόσιου-κλειδιού">Αντιγραφή του δημόσιου κλειδιού</h4>
 
-<p>Αν χρησιμοποιείτε <em>Windows</em>, από το PuTTY Key Generator θα πρέπει να επιλέξετε (click and drag) <strong>όλο το περιεχόμενο</strong> του πλαισίου κάτω από τη φράση <code class="highlighter-rouge">Public key for pasting into OpenSSH authorized_keys file</code> και να το επικολήσετε μέσα στο email της αίτησης χρήσης της υποδομής του υπολογιστικού πλέγματος. <strong>Προσέξτε ότι κατά τη διαδικασία της επιλογής του κειμένου η <em>μπάρα κύλισης (scrollbar)</em> στα δεξιά πρέπει να κυλίσει μέχρι το κάτω μέρος για να είστε σίγουροι πως επιλέξατε όλο το κείμενο του δημόσιου κλειδιού σας (θα πρέπει να τελειώνει σε κάτι σαν <code class="highlighter-rouge">rsa-key-20161031</code>)</strong>.</p>
+<p>Αν χρησιμοποιείτε <em>Windows</em>, από το PuTTY Key Generator θα πρέπει να επιλέξετε (click and drag) <strong>όλο το περιεχόμενο</strong> του πλαισίου κάτω από τη φράση <code class="language-plaintext highlighter-rouge">Public key for pasting into OpenSSH authorized_keys file</code> και να το επικολήσετε μέσα στο email της αίτησης χρήσης της υποδομής του υπολογιστικού πλέγματος. <strong>Προσέξτε ότι κατά τη διαδικασία της επιλογής του κειμένου η <em>μπάρα κύλισης (scrollbar)</em> στα δεξιά πρέπει να κυλίσει μέχρι το κάτω μέρος για να είστε σίγουροι πως επιλέξατε όλο το κείμενο του δημόσιου κλειδιού σας (θα πρέπει να τελειώνει σε κάτι σαν <code class="language-plaintext highlighter-rouge">rsa-key-20161031</code>)</strong>.</p>
 
 <h4 id="παράδειγμα-αίτησης-χρήσης">Παράδειγμα αίτησης χρήσης</h4>
 
 <p>Ένα παράδειγμα μιας αίτησης χρήσης της υποδομής του υπολογιστικού πλέγματος που περιλαμβάνει ένα σωστά επιλεγμένο δημόσιο κλειδί μπορεί να είναι η παρακάτω (προσέξτε ότι κατά την επικόληση το κείμενο του δημόσιου κλειδιού θα είναι μια μεγάλη γραμμή με πολλούς χαρακτήρες που θα διπλώνει μέσα στο σώμα του μηνύματος) :</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Όνομα:        Γιάννης
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Όνομα:        Γιάννης
 Επώνυμο:      Παπαδόπουλος
 Σχολή:        Ναυπηγών
 Όνομα χρήστη: johnpapado
@@ -64,13 +64,13 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjQfeLji9stdcjfgC/2jy25VKinhtn7msTcsPNsZlYpyN
 <h4 id="πρόσβαση-με-secure-shell">Πρόσβαση με Secure Shell</h4>
 
 <p>Αν χρησιμοποιείτε Linux ή Mac υπολογιστή ανοίξτε ένα terminal και δώστε την εντολή</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh -i /path/to/rsa -C username@grid.central.ntua.gr
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh -i /path/to/rsa -C username@grid.central.ntua.gr
 </code></pre></div></div>
 <p>Αν υπάρξει πρόβλημα σύνδεσης τις περισσότερες φορές συνδέεται με τα permissions των κλειδιών κρυπτογράφησης:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod 600 /path/to/rsa
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod 600 /path/to/rsa
 </code></pre></div></div>
 
-<p>Αν χρησιμοποιείτε <em>Windows</em> μια λύση είναι να χρησιμοποιήσετε το πρόγραμμα <a href="https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe">PuTTY</a>. Για καλύτερη εμφάνιση σας προτείνουμε να ενεργοποιήσετε στην ενότητα <code class="highlighter-rouge">Window&gt;Appearence</code> τη γραμματοσειρά <code class="highlighter-rouge">Consolas</code> και τη ρύθμιση <code class="highlighter-rouge">ClearType</code>. Για να επιλέγεται αυτόματα το όνομα χρήστη σας όπως και το προσωπικό σας κλειδί κρυπτογράφησης εισάγετε τις αντίστοιχες πληροφορίες στις ενότητες <code class="highlighter-rouge">Connection&gt;Data</code> και <code class="highlighter-rouge">Connection&gt;SSH&gt;Auth</code>.</p>
+<p>Αν χρησιμοποιείτε <em>Windows</em> μια λύση είναι να χρησιμοποιήσετε το πρόγραμμα <a href="https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe">PuTTY</a>. Για καλύτερη εμφάνιση σας προτείνουμε να ενεργοποιήσετε στην ενότητα <code class="language-plaintext highlighter-rouge">Window&gt;Appearence</code> τη γραμματοσειρά <code class="language-plaintext highlighter-rouge">Consolas</code> και τη ρύθμιση <code class="language-plaintext highlighter-rouge">ClearType</code>. Για να επιλέγεται αυτόματα το όνομα χρήστη σας όπως και το προσωπικό σας κλειδί κρυπτογράφησης εισάγετε τις αντίστοιχες πληροφορίες στις ενότητες <code class="language-plaintext highlighter-rouge">Connection&gt;Data</code> και <code class="language-plaintext highlighter-rouge">Connection&gt;SSH&gt;Auth</code>.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/consolas-cleartype.png" alt="consolas cleartype" /></p>
 
@@ -78,7 +78,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjQfeLji9stdcjfgC/2jy25VKinhtn7msTcsPNsZlYpyN
 
 <p><img src="/assets/img/wiki/hpc/ssh/connection-ssh-auth.png" alt="connection ssh auth" /></p>
 
-<p>Σώστε τις επιλογές σας σε ένα session name έτσι ώστε κάθε επόμενη φορά να επιλέγετε το session και στη συνέχεια <code class="highlighter-rouge">Load</code>. Την πρώτη φορά που θα συνδεθείτε θα εμφανιστεί ένα παράθυρο με τίτλο <code class="highlighter-rouge">PuTTY Security Alert</code> όπου θα πρέπει να επιλέξετε το <code class="highlighter-rouge">Yes</code> για να συνδεθείτε επιτυχώς. Αν έχετε εφοδιάσει το προσωπικό σας κλειδί με Passphrase πρέπει να το πληκτρολογήσετε και αμέσως μετά θα μπορείτε να χρησιμοποιήσετε την υποδομή του grid για να υποβάλετε τις δουλειές σας.</p>
+<p>Σώστε τις επιλογές σας σε ένα session name έτσι ώστε κάθε επόμενη φορά να επιλέγετε το session και στη συνέχεια <code class="language-plaintext highlighter-rouge">Load</code>. Την πρώτη φορά που θα συνδεθείτε θα εμφανιστεί ένα παράθυρο με τίτλο <code class="language-plaintext highlighter-rouge">PuTTY Security Alert</code> όπου θα πρέπει να επιλέξετε το <code class="language-plaintext highlighter-rouge">Yes</code> για να συνδεθείτε επιτυχώς. Αν έχετε εφοδιάσει το προσωπικό σας κλειδί με Passphrase πρέπει να το πληκτρολογήσετε και αμέσως μετά θα μπορείτε να χρησιμοποιήσετε την υποδομή του grid για να υποβάλετε τις δουλειές σας.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/savegrid.png" alt="save grid" /></p>
 
@@ -88,7 +88,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjQfeLji9stdcjfgC/2jy25VKinhtn7msTcsPNsZlYpyN
 
 <h4 id="μεταφορά-αρχείων">Μεταφορά αρχείων</h4>
 
-<p>Αν χρησιμοποιείτε <em>Windows</em> μια λύση είναι να χρησιμοποιήσετε το πρόγραμμα <a href="https://winscp.net/download/WinSCP-5.9.2-Setup.exe">WinSCP</a>. Αφού ξεκινήσετε το πρόγραμμα εγκατάστασης θα πρέπει να αποδεχτείτε το License Agreement, να επιλέξετε <code class="highlighter-rouge">Typical installation</code> και στη συνέχεια την επιλογή <code class="highlighter-rouge">Commander</code> σαν User interface style.</p>
+<p>Αν χρησιμοποιείτε <em>Windows</em> μια λύση είναι να χρησιμοποιήσετε το πρόγραμμα <a href="https://winscp.net/download/WinSCP-5.9.2-Setup.exe">WinSCP</a>. Αφού ξεκινήσετε το πρόγραμμα εγκατάστασης θα πρέπει να αποδεχτείτε το License Agreement, να επιλέξετε <code class="language-plaintext highlighter-rouge">Typical installation</code> και στη συνέχεια την επιλογή <code class="language-plaintext highlighter-rouge">Commander</code> σαν User interface style.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/winscp-license.png" alt="winscp license" /></p>
 
@@ -96,7 +96,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjQfeLji9stdcjfgC/2jy25VKinhtn7msTcsPNsZlYpyN
 
 <p><img src="/assets/img/wiki/hpc/ssh/winscp-commander.png" alt="winscp commander" /></p>
 
-<p>Όταν θα ξεκινήσετε για πρώτη φορά το WinSCP θα πρέπει να εισάγετε το ιδιωτικό σας κλειδί, όπως κάνατε και στην περίπτωση του PuTTY. Επιλέξτε <code class="highlighter-rouge">Advanced</code> και στη συνέχεια στην ενότητα <code class="highlighter-rouge">SSH&gt;Authentication</code> επιλέξτε το ιδιωτικό σας κλειδί. Στη συνέχεια συμπληρώστε το όνομα χρήστη στο πεδίο <code class="highlighter-rouge">User name</code> και τέλος πατήστε το κουμπί <code class="highlighter-rouge">Save</code>. Δεχτείτε ή αλλάξτε το προτεινόμενο όνομα για τη νέα σύνδεση που μόλις δημιουργήσατε και τελικά θα έχετε τη νέα σύνδεση αποθηκευμένη στο αριστερό πλαίσιο.</p>
+<p>Όταν θα ξεκινήσετε για πρώτη φορά το WinSCP θα πρέπει να εισάγετε το ιδιωτικό σας κλειδί, όπως κάνατε και στην περίπτωση του PuTTY. Επιλέξτε <code class="language-plaintext highlighter-rouge">Advanced</code> και στη συνέχεια στην ενότητα <code class="language-plaintext highlighter-rouge">SSH&gt;Authentication</code> επιλέξτε το ιδιωτικό σας κλειδί. Στη συνέχεια συμπληρώστε το όνομα χρήστη στο πεδίο <code class="language-plaintext highlighter-rouge">User name</code> και τέλος πατήστε το κουμπί <code class="language-plaintext highlighter-rouge">Save</code>. Δεχτείτε ή αλλάξτε το προτεινόμενο όνομα για τη νέα σύνδεση που μόλις δημιουργήσατε και τελικά θα έχετε τη νέα σύνδεση αποθηκευμένη στο αριστερό πλαίσιο.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/winscp-launch.png" alt="winscp launch" /></p>
 
@@ -104,7 +104,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjQfeLji9stdcjfgC/2jy25VKinhtn7msTcsPNsZlYpyN
 
 <p><img src="/assets/img/wiki/hpc/ssh/winscp-gridsaved.png" alt="winscp grid saved" /></p>
 
-<p>Για να συνδεθείτε επιλέγετε το όνομα της σύνδεσης από αριστερά και πατάτε το κουμπί <code class="highlighter-rouge">Login</code>. Αν έχετε εφοδιάσει το ιδιωτικό σας κλειδί με κάποιο passphrase θα πρέπει να το πληκτρολογήσετε για να συνδεθείτε με επιτυχία. Στο τέλος θα υπάρχουν δύο πλαίσια όπου στο αριστερό βρίσκεται ο τοπικός σας υπολογιστής ενώ στο δεξιό ο απομακρυσμένος. Μπορείτε να μετακινείτε αρχεία από και προς τον απομακρυσμένο υπολογιστή με τη διαδικασία του <em>“drag and drop”</em>.</p>
+<p>Για να συνδεθείτε επιλέγετε το όνομα της σύνδεσης από αριστερά και πατάτε το κουμπί <code class="language-plaintext highlighter-rouge">Login</code>. Αν έχετε εφοδιάσει το ιδιωτικό σας κλειδί με κάποιο passphrase θα πρέπει να το πληκτρολογήσετε για να συνδεθείτε με επιτυχία. Στο τέλος θα υπάρχουν δύο πλαίσια όπου στο αριστερό βρίσκεται ο τοπικός σας υπολογιστής ενώ στο δεξιό ο απομακρυσμένος. Μπορείτε να μετακινείτε αρχεία από και προς τον απομακρυσμένο υπολογιστή με τη διαδικασία του <em>“drag and drop”</em>.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/winscp-gridsaved.png" alt="winscp grid saved" /></p>
 
@@ -114,14 +114,14 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjQfeLji9stdcjfgC/2jy25VKinhtn7msTcsPNsZlYpyN
 
 <h4 id="υποβολή-εργασίας-για-επίλυση">Υποβολή εργασίας για επίλυση</h4>
 
-<p>Αφού έχετε μεταφέρει τα αρχεία σας με επιτυχία και τα έχετε τακτοποιήσει σε κάποιο κατάλογο, π.χ. <code class="highlighter-rouge">abaqus-multiprocessor</code> θα πρέπει να μετακινηθείτε στον κατάλογο με την εντολή <code class="highlighter-rouge">cd abaqus-multiprocessor</code> (αντικαταστήστε το όνομα του καταλόγου ανάλογα). Η εντολή <code class="highlighter-rouge">ls</code> μας δίνει τη λίστα των αρχείων που περιέχει ο κατάλογος. Η εργασία που θέλουμε να υποβάλουμε είναι συνήθως ένα αρχείο κειμένου (script) που περιέχει διάφορες ρυθμίσεις και εντολές. Στο συγκεκριμένο παράδειγμα η εργασία που θα υποβληθεί είναι το αρχείο <code class="highlighter-rouge">abaqus-multi.sh</code> και η υποβολή γίνεται με την εντολή <code class="highlighter-rouge">qsub</code>.</p>
+<p>Αφού έχετε μεταφέρει τα αρχεία σας με επιτυχία και τα έχετε τακτοποιήσει σε κάποιο κατάλογο, π.χ. <code class="language-plaintext highlighter-rouge">abaqus-multiprocessor</code> θα πρέπει να μετακινηθείτε στον κατάλογο με την εντολή <code class="language-plaintext highlighter-rouge">cd abaqus-multiprocessor</code> (αντικαταστήστε το όνομα του καταλόγου ανάλογα). Η εντολή <code class="language-plaintext highlighter-rouge">ls</code> μας δίνει τη λίστα των αρχείων που περιέχει ο κατάλογος. Η εργασία που θέλουμε να υποβάλουμε είναι συνήθως ένα αρχείο κειμένου (script) που περιέχει διάφορες ρυθμίσεις και εντολές. Στο συγκεκριμένο παράδειγμα η εργασία που θα υποβληθεί είναι το αρχείο <code class="language-plaintext highlighter-rouge">abaqus-multi.sh</code> και η υποβολή γίνεται με την εντολή <code class="language-plaintext highlighter-rouge">qsub</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qsub abaqus-multi.sh
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qsub abaqus-multi.sh
 </code></pre></div></div>
 
 <p>Το σύστημα δίνει ένα αύξοντα αριθμό στην εργασία και μας πληροφορεί με ανάλογο μήνυμα ότι η εργασία μας έχει υποβληθεί. Ταυτόχρονα θα λάβουμε κι ένα ενημερωτικό email με ανάλογο περιεχόμενο.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root&lt;root@central.ntua.gr&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root&lt;root@central.ntua.gr&gt;
 to chfrag
 
 Job 10 (abaqus-multi.sh) Started
@@ -131,9 +131,9 @@ Job 10 (abaqus-multi.sh) Started
  Start Time = 11/09/2016 12:20:20
 </code></pre></div></div>
 
-<p>Για να ενημερωθούμε από το ίδιο το σύστημα για τις λεπτομέριες της εκτέλεσης χρησιμοποιούμε την εντολή <code class="highlighter-rouge">qstat</code>.</p>
+<p>Για να ενημερωθούμε από το ίδιο το σύστημα για τις λεπτομέριες της εκτέλεσης χρησιμοποιούμε την εντολή <code class="language-plaintext highlighter-rouge">qstat</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qstat -f
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qstat -f
 </code></pre></div></div>
 
 <p><img src="/assets/img/wiki/hpc/ssh/qsub-start.png" alt="qsub start" /></p>
@@ -146,7 +146,7 @@ Job 10 (abaqus-multi.sh) Started
 
 <p>Όταν η επίλυση τελειώσει θα λάβετε ένα ενημερωτικό email με διάφορες πληροφορίες σχετικά με την επεξεργασία που έγινε στην υποδομή του υπολογιστικού πλέγματος:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root&lt;root@central.ntua.gr&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root&lt;root@central.ntua.gr&gt;
 to chfrag
 
 Job 10 (abaqus-multi.sh) Complete
@@ -163,7 +163,7 @@ Job 10 (abaqus-multi.sh) Complete
  Exit Status      = 0
 </code></pre></div></div>
 
-<p>Αν δώσουμε την εντολή <code class="highlighter-rouge">ls</code> στον κατάλογο της εργασίας θα δούμε ότι έχουν δημιουργηθεί διάφορα αρχεία σαν αποτέλεσμα της επεξεργασίας μας. Με τη χρήση του WinSCP μπορούμε να μεταφέρουμε τα αρχεία που μας ενδιαφέρουν στον τοπικό υπολογιστή.</p>
+<p>Αν δώσουμε την εντολή <code class="language-plaintext highlighter-rouge">ls</code> στον κατάλογο της εργασίας θα δούμε ότι έχουν δημιουργηθεί διάφορα αρχεία σαν αποτέλεσμα της επεξεργασίας μας. Με τη χρήση του WinSCP μπορούμε να μεταφέρουμε τα αρχεία που μας ενδιαφέρουν στον τοπικό υπολογιστή.</p>
 
 <p><img src="/assets/img/wiki/hpc/ssh/finished-ls.png" alt="finished ls" /></p>
 

@@ -1,4 +1,4 @@
-I",?<h3 class="top-buffer" id="abaqus">ABAQUS</h3>
+I"�?<h3 class="top-buffer" id="abaqus">ABAQUS</h3>
 
 <p>Το ABAQUS είναι μια ομάδα προγραμμάτων που μοντελοποιούν και αναλύουν πάσης φύσεως διατάξεις στον τομέα της μηχανικής, βασισμένο στην μέθοδο πεπερασμένων στοιχείων. Είναι διαθέσιμο στην αγορά από την εταιρία Dassault Systèmes, μέρος των λογισμικών SIMULIA Product Life-cycle Management (PLM). Το πρόγραμμα αυτό, μεταξύ άλλων, έχει τα ακόλουθα πλεονεκτήματα:</p>
 
@@ -54,7 +54,7 @@
 
 <h4 id="download-των-λογισμικών">Download των λογισμικών</h4>
 
-<p>Τα λογισμικά της Dassault Systemes που συνθέτουν τη σουΐτα του Abaqus είναι διαθέσιμα μετά από έλεγχο πρόσβασης στον ftp server του Κέντρου Ηλεκτρονικών Υπολογιστών <a href="ftp://ftp.central.ntua.gr">ftp.central.ntua.gr</a>. Μετά τον επιτυχή έλεγχο πρόσβασης επιλέγετε την έκδοση που σας ενδιαφέρει και μεταφορτώνετε στον υπολογιστή σας τα αρχεία <code class="highlighter-rouge">.tar</code>. Για τον έλεγχο της ορθότητας των αρχείων που κατεβάσατε χρησιμοποιήστε το αρχείο με τα <code class="highlighter-rouge">md5 sums</code>.</p>
+<p>Τα λογισμικά της Dassault Systemes που συνθέτουν τη σουΐτα του Abaqus είναι διαθέσιμα μετά από έλεγχο πρόσβασης στον ftp server του Κέντρου Ηλεκτρονικών Υπολογιστών <a href="ftp://ftp.central.ntua.gr">ftp.central.ntua.gr</a>. Μετά τον επιτυχή έλεγχο πρόσβασης επιλέγετε την έκδοση που σας ενδιαφέρει και μεταφορτώνετε στον υπολογιστή σας τα αρχεία <code class="language-plaintext highlighter-rouge">.tar</code>. Για τον έλεγχο της ορθότητας των αρχείων που κατεβάσατε χρησιμοποιήστε το αρχείο με τα <code class="language-plaintext highlighter-rouge">md5 sums</code>.</p>
 
 <p>Τα ίδια αρχεία μπορούν να χρησιμοποιηθούν για εγκατάσταση τόσο σε πλατφόρμα Windows όσο και σε πλατφόρμα Linux.</p>
 
@@ -62,7 +62,7 @@
 
 <p><img src="/assets/img/wiki/licenses/abaqus/download/abaqus1.png" alt="" /></p>
 
-<p>Σας συνιστούμε να αποθηκεύσετε τα αρχεία σε κάποιο κατάλογο και να τα αποσυμπιέσετε σε αυτόν όποτε να δημιουργηθούν δύο κατάλογοι. Στον ένα κατάλογο <code class="highlighter-rouge">AM_DOC_SIM_EstPrd.AllOS</code> βρίσκεται το Documentation ενώ στο άλλο κατάλογο <code class="highlighter-rouge">AM_SIM_Abaqus.AllOS</code> βρίσκονται τα προγράμματα.</p>
+<p>Σας συνιστούμε να αποθηκεύσετε τα αρχεία σε κάποιο κατάλογο και να τα αποσυμπιέσετε σε αυτόν όποτε να δημιουργηθούν δύο κατάλογοι. Στον ένα κατάλογο <code class="language-plaintext highlighter-rouge">AM_DOC_SIM_EstPrd.AllOS</code> βρίσκεται το Documentation ενώ στο άλλο κατάλογο <code class="language-plaintext highlighter-rouge">AM_SIM_Abaqus.AllOS</code> βρίσκονται τα προγράμματα.</p>
 
 <p><img src="/assets/img/wiki/licenses/abaqus/download/abaqus2.png" alt="" /></p>
 
@@ -96,7 +96,7 @@
 
 <p><img src="/assets/img/wiki/licenses/abaqus/doc/abaqus9.png" alt="" /></p>
 
-<p>To Documentation θα είναι προσβάσιμο μέσω κάποιου webbrowser στην τοπική πόρτα <code class="highlighter-rouge">2180</code>:</p>
+<p>To Documentation θα είναι προσβάσιμο μέσω κάποιου webbrowser στην τοπική πόρτα <code class="language-plaintext highlighter-rouge">2180</code>:</p>
 
 <p><img src="/assets/img/wiki/licenses/abaqus/doc/abaqus10.png" alt="" /></p>
 
